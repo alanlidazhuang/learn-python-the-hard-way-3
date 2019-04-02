@@ -6,6 +6,7 @@ script, from_file, to_file = argv      #注意，“from_file”和“to_file”
 
 print(f"Copying from {from_file} to {to_file}.")
 
+
 in_file = open(from_file)             #注意，“in_file”是变量名
 print(">>>>>>>", repr(in_file))
 indata = in_file.read()
