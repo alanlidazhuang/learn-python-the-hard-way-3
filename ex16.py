@@ -17,6 +17,7 @@ print("Opening the file......")
 target_after = open(filename, 'w')    #'w'
 
 print("Erasing the file...Goodbye!")
+
 target_after.truncate()
 
 print("Now I'm going to ask you for three lines.")
