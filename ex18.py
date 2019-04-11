@@ -1,7 +1,7 @@
 #自定义函数
 
 def print_two(*args):
-    arg1, arg2 = args       #注意自定义函数定义的语句前有缩进
+    arg1, arg2 = args                     #注意自定义函数定义的语句前有缩进
     print(f"arg1: {arg1}, arg2: {arg2}")
 
 def print_two_again(arg1, arg2):
