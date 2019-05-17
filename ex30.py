@@ -20,3 +20,5 @@ if people > trucks:
     print("Alright, let's just take the trucks.")
 else:
     print("Fine, let's stay home then.")
+
+    
